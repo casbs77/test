@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "bad_bucket" {
 
 # Create a new load balancer
 resource "aws_elb" "weblb" {
-  name = "weblb-terraform-elb"
+  name = "weblb-terraform-elb2"
 
   listener {
     instance_port     = 8000
