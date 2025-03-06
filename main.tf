@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bad_bucket" {
-  bucket = "bad_bucket1"
+  bucket = "bad_bucket2"
 }
 
 # Create a new load balancer
